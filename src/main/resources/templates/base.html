@@ -1,0 +1,16 @@
+<div
+class="parent-tag"
+th:fragment="parent(content)"
+>
+<h1>This is Parent Fragment</h1>
+<h1>User is Login</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus pariatur corrupti neque dolores. Molestiae officiis, labore doloribus alias voluptatem corporis cumque non. Quae commodi ipsum, quo ratione dolor quod rem itaque cumque debitis doloribus quos ducimus earum voluptatibus eveniet unde corporis hic id, atque deleniti repellat voluptates! Perferendis, quisquam aut.</p>
+<!-- <h1>Value of x is <span th:text="${x}"></span></h1> -->
+ <div th:replace="${content}"></div>
+</div> 
+
+
+<div th:fragment="test">
+    <h1>User is logged out</h1>
+    <h1>This is test Fragment</h1>
+</div>
