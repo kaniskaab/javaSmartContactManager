@@ -35,6 +35,22 @@ public String servicesPage(){
     System.out.println("Services Page Loading");
     return "services";
 }
+@RequestMapping("/login")
+public String loginPage() {
+System.out.println("Login Page Loading");
+   return "login";
+}
+@RequestMapping("/signup")
+public String signupPage() {
+System.out.println("Sign Up Page Loading");
+   return "register";
+}
+@RequestMapping("/contact")
+public String contactPage() {
+System.out.println("Contact Page Loading");
+   return "contact";
+}
+
 }
 
 
